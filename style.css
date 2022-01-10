@@ -1,0 +1,163 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+main {
+    max-height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formsectionmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+#formsection {
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formsection > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputstyle {
+    padding: 8px;
+    width: 220px;
+    height: 35px;
+    text-align: center;
+}
+
+#submitbutton, #filterbutton {
+    text-transform: uppercase;
+    border: 1px solid lightgreen;
+    background: lightgreen;
+    cursor: pointer;
+    fill-opacity: 0.5;
+}
+
+#submitbutton a{
+    text-decoration: none;
+    color: black;
+}
+
+#resetbutton{
+    text-transform: uppercase;
+    border: 1px solid red;
+    background: red;
+    cursor: pointer;
+    fill-opacity: 0.5;
+}
+#submitbutton:hover, #resetbutton:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#resultwrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#listwrappersection{
+    max-height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#listwrapper {
+    padding:0;
+    margin:0;
+    max-height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.bmicard {
+    width: 160px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:0;
+    margin:10px 10px;
+}
+
+#bmiList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+
+.movie-element_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    height: 100%;
+    text-align: center;
+}
+.movie-element_info > * {
+    padding: 10px;
+    width: 160px;
+}
+
+.displayNone {
+    display: none;
+}
+
+#inputstyle1 {
+    padding: 8px;
+    width: 420px;
+    height: 35px;
+    text-align: center;
+}
+
+
+
